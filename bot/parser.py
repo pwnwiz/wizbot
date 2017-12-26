@@ -5,7 +5,7 @@ import pymysql
 import os,time
 
 def developer() :
-	string='pwnWiz\n'
+	string='안녕하세요! pwnWiz입니다\n'
 	string+='Email : pwnWiz@gmail.com\n'
 	string+='Github : https://github.com/pwnwiz/wizbot\n'
 	return string

@@ -22,7 +22,6 @@ def message(requests):
     return_json_str = json.loads(rmessage)
     return_str = return_json_str['content']
     rmessage = return_str
-    parser.database(return_str)
 
     if (rmessage.find("개발자") > -1 or rmessage.find("0") > -1):
         return_str = (parser.developer())
